@@ -1,28 +1,3 @@
-[general]
-import=[
-  "${HOME}/.config/alacritty/themes/catppuccin_macchiato.toml"
-]
-
-[window]
-decorations = "Transparent"
-opacity =  0.9
-padding = { x=20, y=10 }
-dynamic_padding = true
-startup_mode = "SimpleFullscreen"
-
-[font]
-normal = { family = "Hack Nerd Font", style = "Regular" }
-size = 14
-
-[terminal]
-shell = { program = "/bin/zsh", args = ["-l", "-c", "zellij attach --index 0 || zellij"] }
-
-[keyboard]
-bindings = [
-  { key = "Home", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [ "actions", "beginning-of-line" ] } },
-  { key = "End", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [ "actions", "end-of-line" ] } }
-]
-
 # Default colors
 [colors.primary]
 background = '#24273A' # base

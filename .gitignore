@@ -1,2 +1,4 @@
 bash_completion
 zsh/plugins
+
+nvim/lazy-lock.json

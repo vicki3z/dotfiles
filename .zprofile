@@ -7,7 +7,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
-source ~/.orbstack/shell/init.zsh 2>/dev/null || :
+#source ~/.orbstack/shell/init.zsh 2>/dev/null || :
 
 # Created by `pipx` on 2025-11-14 02:39:41
 export PATH="$PATH:/Users/victoriap/Library/Python/3.9/bin"
