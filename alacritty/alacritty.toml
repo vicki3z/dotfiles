@@ -1,0 +1,45 @@
+[general]
+working_directory="~/repos"
+
+[window]
+decorations = "Transparent"
+opacity =  0.9
+padding = { x=20, y=10 }
+dynamic_padding = true
+startup_mode = "SimpleFullscreen"
+
+[font]
+normal = { family = "Hack Nerd Font", style = "Regular" }
+size = 14
+
+[colors.primary]
+ background = "#2D2A2E"
+ foreground = "#FCFCFA"
+[colors.normal]
+ black = "#403E41"
+ red = "#FF6188"
+ green = "#A9DC76"
+ yellow = "#FFD866"
+ blue = "#FC9867"
+ magenta = "#AB9DF2"
+ cyan = "#78DCE8"
+ white = "#FCFCFA"
+
+[colors.bright]
+ black = "#727072"
+ red = "#FF6188"
+ green = "#A9DC76"
+ yellow = "#FFD866"
+ blue = "#FC9867"
+ magenta = "#AB9DF2"
+ cyan = "#78DCE8"
+ white = "#FCFCFA"
+
+[terminal]
+shell = { program = "/bin/zsh", args = ["-l", "-c", "zellij attach --index 0 || zellij"] }
+
+[keyboard]
+bindings = [
+  { key = "Home", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [ "actions", "beginning-of-line" ] } },
+  { key = "End", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [ "actions", "end-of-line" ] } }
+]

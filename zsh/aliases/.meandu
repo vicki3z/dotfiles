@@ -1,0 +1,4 @@
+#!/usr/bin/zsh
+
+alias ml="meandu login"
+alias mu=". ~/repos/discard-main-changes.sh && mr up"

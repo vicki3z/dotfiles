@@ -1,0 +1,19 @@
+#!/usr/bin/zsh
+
+# System & config
+alias ll="ls -alF"
+alias lla="ls -la"
+alias repos="cd ~/repos"
+alias vi="nvim"
+alias conf="cd ~/.config/"
+alias zshconf="cd && vi ~/.zshrc"
+alias zshal="conf && vi zsh/aliases"
+alias sozsh="source ~/.zshrc"
+alias alaconf="conf && vi alacritty/alacritty.toml"
+alias zelconf="conf && zellij/config.kdl"
+alias viconf="conf && vi nvim"
+
+#Glow
+alias todo="glow ~/repos/TODO.md"
+alias edtd="vi ~/repos/TODO.md"
+

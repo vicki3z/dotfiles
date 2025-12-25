@@ -1,0 +1,12 @@
+#!/usr/bin/zsh
+
+alias gs="git status"
+alias ga="git add"
+alias gaa="git add ."
+alias gcho="git checkout"
+alias gchall='git checkout -- .'
+alias gcm="git commit -m"
+alias gca="git commit --amend"
+alias gcan="git commit --amend --no-edit"
+alias gfpl="git fetch origin && git pull"
+alias glg="git log --graph --pretty=format:'%C(cyan)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(magenta)<%an>%Creset' --abbrev-commit --date=relative"
