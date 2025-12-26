@@ -4,7 +4,7 @@ layout {
         plugin location="zellij:tab-bar"
       }
       pane split_direction="vertical" {
-        pane size="40%" cwd="~/repos"
+        pane size="30%" cwd="~/repos"
         pane split_direction="horizontal" {
           pane size="80%" cwd="~/repos"
           pane cwd="~/repos"

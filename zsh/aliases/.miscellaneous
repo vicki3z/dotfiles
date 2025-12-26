@@ -13,7 +13,9 @@ alias alaconf="conf && vi alacritty/alacritty.toml"
 alias zelconf="conf && zellij/config.kdl"
 alias viconf="conf && vi nvim"
 
-#Glow
+# Glow
 alias todo="glow ~/repos/TODO.md"
 alias edtd="vi ~/repos/TODO.md"
 
+# Zellij
+alias ide="zellij --layout ide"
