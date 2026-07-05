@@ -43,5 +43,3 @@ source "${ZSH_PLUGINS}/zsh-autosuggestions/zsh-autosuggestions.zsh"
 source "${ZSH_PLUGINS}/zsh-ssh/zsh-ssh.zsh"
 source "${ZSH_PLUGINS}/zsh-you-should-use/you-should-use.plugin.zsh"
 
-$(meandu aws export)
-
