@@ -18,6 +18,8 @@ export PATH="$PATH:/Users/victoriap/.local/bin"
 # Yarn global
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # ZSH Config
 export ZSH_CONFIG="$HOME/.config"
 
@@ -31,4 +33,5 @@ export ZSH_PLUGINS="$ZSH_CUSTOM/plugins"
 export STARSHIP_CONFIG="$ZSH_CONFIG/starship/starship.toml"
 
 export EDITOR=/opt/homebrew/bin/nvim
+
 
