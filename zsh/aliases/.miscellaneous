@@ -9,7 +9,7 @@ alias conf="cd ~/.config/"
 alias zshconf="cd && vi ~/.zshrc"
 alias zshal="conf && vi zsh/aliases"
 alias sozsh="source ~/.zshrc"
-alias alaconf="conf && vi alacritty/alacritty.toml"
+alias ghtyconf="conf && vi ghostty/config"
 alias zelconf="conf && zellij/config.kdl"
 alias viconf="conf && vi nvim"
 
@@ -18,4 +18,10 @@ alias todo="glow ~/repos/TODO.md"
 alias edtd="vi ~/repos/TODO.md"
 
 # Zellij
-alias ide="zellij --layout ide"
+alias wf="zellij --layout ide"
+
+# NPM
+alias ni="npm i"
+alias nci="npm ci"
+alias nff="npm run fix:formatting"
+alias nct="npm run check:typing"

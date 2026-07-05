@@ -1,4 +1,11 @@
 #!/usr/bin/zsh
 
 alias ml="meandu login"
-alias mu=". ~/repos/discard-main-changes.sh && mr up"
+alias dcm="sh ~/repos/discard-main-changes.sh"
+alias mru="mrx update"
+alias mrr="mrx register"
+
+# NPM
+alias bntu="npm run test:unit -- --"
+alias fntu="npm run test --"
+alias bnti="npm run test:integration -- --"
