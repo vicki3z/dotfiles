@@ -27,8 +27,6 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
-
 # Load aliases
 for file in $ZSH_CUSTOM/aliases/.*; do
   source "$file";
