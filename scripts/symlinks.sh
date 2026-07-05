@@ -5,7 +5,7 @@ DOTFILE_DIR=$HOME/dotfiles
 DOTCONFIGFILES=(
   "zsh"
   "nvim"
-  "alacritty"
+  "ghostty"
   "zellij"
   "starship"
   "glow"

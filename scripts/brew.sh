@@ -32,7 +32,7 @@ brew install luarocks
 brew install fzf
 
 # Install cask packages
-brew install --cask alacritty
+brew install --cask ghostty
 
 # Remove outdated versions from the cellar.
 brew cleanup
